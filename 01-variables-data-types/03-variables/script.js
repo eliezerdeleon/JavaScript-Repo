@@ -42,3 +42,11 @@ const arr = [1, 2, 3, 4];
 arr.push(5);
 
 console.log(arr);
+
+const person = {
+  name: 'John',
+};
+
+person.email = 'brad@gmail.com';
+
+console.log(person);
