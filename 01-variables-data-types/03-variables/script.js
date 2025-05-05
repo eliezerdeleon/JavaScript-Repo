@@ -50,3 +50,13 @@ const person = {
 person.email = 'brad@gmail.com';
 
 console.log(person);
+
+// declare multiple vaules at once
+let a, b, c;
+const d = 1,
+  e = 2,
+  f = 3;
+
+console.log(d);
+console.log(a);
+
