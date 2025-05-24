@@ -13,7 +13,7 @@ console.error('Alert!');
 
 console.warn('Warning!');
 console.table({ name: 'John', age: 30, city: 'New York' });
-console.group('Group 1');
+console.group('Group 1'); 
 console.log('Inside group');
 console.group('Group 2');
 console.groupEnd();
