@@ -4,12 +4,12 @@ const age = 30;
 
 //reference values are stored on the heap
 const person = {
-  name: 'Sara',
-  age: 25,
+  name: 'Brad',
+  age: 40,
 };
 
 let newName = name;
-newName = 'Sarah';
+newName = 'Johnathan';
 
 let newPerson = person;
 newPerson.name = 'Sarita';
