@@ -10,6 +10,7 @@ add(5, 10);
 
 function subtract(num1, num2) {
   return num1 - num2;
+  console.log('After the return');
 }
 
 const result = subtract(10, 2);
