@@ -3,9 +3,9 @@ let x;
 const fruits = ['apple', 'banana', 'orange'];
 const berries = ['strawberry', 'blueberry', 'rasberry'];
 
-// fruits.push(berries);
+fruits.push(berries);
 
-// x = fruits[3][1];
+x = fruits[3][1];
 
 const allFruits = [fruits, berries];
 
