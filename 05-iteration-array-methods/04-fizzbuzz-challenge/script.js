@@ -27,3 +27,5 @@ while (j <= 100) {
 
   j++;
 }
+
+//FizBuzz
