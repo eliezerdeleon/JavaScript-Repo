@@ -1,29 +1,35 @@
 let d;
 
-d = new Date(); // Current date and time
+// Get today's date and time
+d = new Date();
 
-d = d.toString(); // Convert to string
+// Set to a string
+d = d.toString();
 
-d = new Date(2021, 1, 10, 12, 21, 21); // Specific date
+// Get a specific date
+// Important: the month is 0-based, so 0 is January and 11 is December
+d = new Date(2021, 0, 10, 12, 30, 0);
 
-d = new Date('2021-01-10T12:21:21'); // Specific date in ISO format
+// Pass in a string
+d = new Date('2021-07-10T12:30:00');
+d = new Date('07/10/2021 12:30:00');
+d = new Date('2022-07-10');
+d = new Date('07-10-2022');
 
-d = new Date('07/10/2021 12:21:21'); // Specific date in US format
+// https://stackoverflow.com/questions/7556591/is-the-javascript-date-object-always-one-day-off
 
-d = new Date('2021-01-10'); // Specific date in ISO format
+// Get current timestamp
+d = Date.now();
 
-d = new Date('01-10-2021');
+// Get the timestamp of a specific date
+d = new Date();
+d = d.getTime();
+d = d.valueOf();
 
-d = Date.now(); // Current timestamp in milliseconds
+// Create a date from a timestamp
+d = new Date(1666962049745);
 
-d = new Date('07-10-2022 12:30:00');
-
-d = d.getTime(); // Get timestamp in milliseconds
-
-d = d.valueOf(); // Get timestamp in milliseconds
-
-d = new Date(1657470600000);
-
-d = Math.floor(Date.now() / 1000); // Current timestamp in seconds
+// Convert from milliseconds to seconds
+d = Math.floor(Date.now() / 1000);
 
 console.log(d);

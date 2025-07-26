@@ -1,29 +1,27 @@
-let x;
-let y;
+const x = Math.floor(Math.random() * 100 + 1);
+const y = Math.floor(Math.random() * 50 + 1);
 
-x = Math.floor(Math.random() * 100 + 1);
-y = Math.floor(Math.random() * 50 + 1);
-
-sum = x + y;
-dif = x - y;
-prod = x * y;
-quot = x / y;
-rem = x % y;
-
-let sumOutput;
-let differenceOutput;
-let productOutput;
-let quotientOutput;
-let rmOutput;
-
-sumOutput = `${x} + ${y} = ${sum}`;
-differenceOutput = `${x} - ${y} = ${dif}`;
-productOutput = `${x} * ${y} = ${prod}`;
-quotientOutput = `${x} / ${y} = ${quot}`;
-rmOutput = `${x} % ${y} = ${rem}`;
-
+// Get the sum
+const sum = x + y;
+const sumOutput = `${x} + ${y} = ${sum}`;
 console.log(sumOutput);
-console.log(differenceOutput);
-console.log(productOutput);
-console.log(quotientOutput);
+
+// Get the difference
+const diff = x - y;
+const diffOutput = `${x} - ${y} = ${diff}`;
+console.log(diffOutput);
+
+// Get the product
+const prod = x * y;
+const prodOutput = `${x} * ${y} = ${prod}`;
+console.log(prodOutput);
+
+// Get the quotient
+const quot = x / y;
+const quotOutput = `${x} / ${y} = ${quot}`;
+console.log(quotOutput);
+
+// Get the remainder
+const rm = x % y;
+const rmOutput = `${x} % ${y} = ${rm}`;
 console.log(rmOutput);

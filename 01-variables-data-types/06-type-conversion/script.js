@@ -1,19 +1,21 @@
 let amount = 'hello';
 
-//convert string to number
+// Convert string to number
 amount = parseInt(amount);
-//amount = +amount;
-//amount = Number(amount);
+amount = +amount;
+amount = Number(amount);
 
-//convert number to string
-//amount = amount.toString();
-//amount = String(amount);
+// Convert number to string
+amount = amount.toString();
+amount = String(amount);
 
-//convert string to decimal
-//amount = parseFloat(amount);
+// Convert string to decimal
+amount = parseFloat(amount);
 
-//convert number to boolean
-//amount = Boolean(amount);
+// Convert number to boolean
+amount = Boolean(amount);
+
+// Ways to get NaN
 console.log(Math.sqrt(-1));
 console.log(1 + NaN);
 console.log(undefined + undefined);

@@ -11,4 +11,3 @@ div.appendChild(text);
 // document.body.appendChild(div);
 
 document.querySelector('ul').appendChild(div);
- 
