@@ -48,3 +48,5 @@ document.querySelector('a').addEventListener('click', function (e) {
 - `screenX` - The x position of the mouse click relative to the screen
 - `screenY` - The y position of the mouse click relative to the screen
 */
+
+//Noted
