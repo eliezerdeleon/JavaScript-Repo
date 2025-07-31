@@ -40,3 +40,5 @@ removeClearButton();
 // removeFirstItem();
 // removeItem(2);
 removeItem4(2);
+
+//Noted
