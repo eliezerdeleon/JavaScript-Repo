@@ -33,3 +33,5 @@ setTimeout(() => clearBtn.removeEventListener('click', onClear), 5000);
 
 // Fire off event from JS
 setTimeout(() => clearBtn.click(), 5000);
+
+//noted

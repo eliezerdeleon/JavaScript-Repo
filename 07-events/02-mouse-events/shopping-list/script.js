@@ -32,3 +32,5 @@ logo.addEventListener('mouseout', onMouseOut);
 logo.addEventListener('dragstart', onDragStart);
 logo.addEventListener('drag', onDrag);
 logo.addEventListener('dragend', onDragEnd);
+
+//noted
